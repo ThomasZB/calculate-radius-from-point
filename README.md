@@ -1,9 +1,7 @@
 # calculate-radius-from-point
-根据圆周上的点使用Ceres计算半径
+使用google的优化库ceres，优化得到圆的圆心和中心
 
 # 简介
-
-使用google的优化库ceres，优化得到圆的圆心和中心
 
 假设圆心为 $(x, y)$ ，可以得到：
 
