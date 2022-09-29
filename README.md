@@ -1,5 +1,5 @@
 # calculate-radius-from-point
-使用google的优化库ceres，优化得到圆的圆心和中心
+最近有个项目需要根据圆上面的点计算圆的半径，我通过使用google的优化库ceres，优化得到圆的圆心和中心
 
 # 简介
 
