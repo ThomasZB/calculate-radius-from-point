@@ -17,7 +17,8 @@
 class CalculateRadius {
  public:
   CalculateRadius() {}
-  double GetCalculateResult(std::vector<Eigen::Vector2d> points_pose);
+  double GetCalculateResult(std::vector<Eigen::Vector2d>& points_pose,
+                            std::array<double, 3>& initial_xyr);
 };
 
 #endif
