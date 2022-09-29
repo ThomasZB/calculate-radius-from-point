@@ -6,9 +6,8 @@
 使用google的优化库ceres，优化得到圆的圆心和中心
 
 假设圆心为`(x, y)`，可以得到：
-$$
-\Delta x=x_n-x\\\Delta y=y_n-y
-$$
+$$ \Delta x=x_n-x\\\Delta y=y_n-y $$
+
 假设半径为`r`，可以得到每个点的误差为：
 $$
 err_n=\left(\sqrt{\Delta x_n^2+\Delta y_n^2}-r\right)^2
